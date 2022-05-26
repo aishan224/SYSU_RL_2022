@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5bbedce-b7b1-4374-ba47-9dca05ab055e" name="ChaoshunA100">
+        <fileTransfer rootFolder="/home/hucs" accessType="SFTP" host="172.18.167.78" port="10020" sshConfigId="b8632df9-dd79-4d92-a654-8051ff371fbe" sshConfig="hucs@172.18.167.78:10020 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
