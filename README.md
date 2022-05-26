@@ -1,4 +1,4 @@
-# SUSU Reinforcement Learning 2022
+# SYSU Reinforcement Learning 2022
 
 ## Homework_1
 
