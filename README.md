@@ -12,3 +12,11 @@
 - [x] Implementing DQN
 - [x] Implementing Policy Gradient
 - [x] Implementing DDPG
+
+## Homework_3
+
+- [x] MADDPG
+- [x] VDN
+- [x] QMIX
+
+​	都是抄的QAQ
