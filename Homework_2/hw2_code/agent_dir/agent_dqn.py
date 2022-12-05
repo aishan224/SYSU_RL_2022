@@ -43,7 +43,7 @@ class QNetwork(nn.Module):
         x = F.relu(self.conv_layer_1(inputs))
         x = F.relu(self.conv_layer_2(x))
         x = F.relu(self.conv_layer_3(x))
-        x = F.relu(self.fc_layer(x.view(x.size(0), -1)))
+        x = F.relu(self.fc_layer(x.view(x.size(0), -1))) # 这个view相当于Flatten
 
         if self.dueling:
             value = self.dueling_value(x)
